@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AnnotationApplicationTests {
+public class DIApplicationTests {
 
     @Resource
     private com.test.annotation.DI.Test autowiredTest;

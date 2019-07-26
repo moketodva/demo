@@ -1,0 +1,8 @@
+student:
+  name: moke
+  scores: {'a': '88','c': '99'}
+  projects:
+    - 语文
+    - 数学
+  school:
+    name: 学校

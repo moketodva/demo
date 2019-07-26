@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="importResourceTest" class="com.test.annotation.Resource.importResource.ImportResourceTest">
+        <property name="name" value="moke1"/>
+        <property name="scores">
+            <map>
+                <entry key="语文" value="88"/>
+                <entry key="数学" value="99"/>
+            </map>
+        </property>
+        <property name="projects" >
+            <list>
+                <value>语文</value>
+                <value>数学</value>
+            </list>
+        </property>
+        <property name="school" ref="school"/>
+    </bean>
+    <bean id="school" class="com.test.annotation.Resource.School">
+        <property name="name" value="学校"/>
+    </bean>
+</beans>

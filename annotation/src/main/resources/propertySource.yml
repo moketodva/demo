@@ -1,0 +1,6 @@
+student-one:
+  name: moke2
+  scores: "{'语文': '88','数学': '99'}"
+  projects: 语文,数学
+  school:
+    name: 学校
